@@ -191,12 +191,14 @@ export default function Home() {
               Kontak
             </a>
           </nav>
-          <button
-            onClick={handleHireMe}
-            className='text-xs uppercase tracking-widest font-semibold px-4 py-2 rounded border border-amber-500/40 text-amber-400 hover:bg-amber-500 hover:text-stone-950 transition-all cursor-pointer'
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=fahmirifki412@gmail.com&su=Peluang%20Kerja%20/%20Proyek%20Web%20Development"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-xs uppercase tracking-widest font-semibold px-4 py-2 rounded border border-amber-500/40 text-amber-400 hover:bg-amber-500 hover:text-stone-950 transition-all cursor-pointer"
           >
             Hire Me
-          </button>
+          </a>
         </div>
       </header>
 
@@ -430,7 +432,9 @@ export default function Home() {
 
           <div className='flex justify-center gap-4 mb-20'>
             <a
-              href="mailto:fahmirifki412@gmail.com?subject=Peluang%20Kerja%20/%20Proyek%20Web%20Development"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=fahmirifki412@gmail.com&su=Peluang%20Kerja%20/%20Proyek%20Web%20Development"
+              target="_blank"
+              rel="noopener noreferrer"
               className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-stone-950 font-semibold px-8 py-4 rounded text-sm transition-all cursor-pointer'
             >
               <Mail className='w-4 h-4' /> Kirim Email Ke Saya

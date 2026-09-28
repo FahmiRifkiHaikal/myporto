@@ -49,7 +49,7 @@ const PROFILE = {
   about:
     'Saya memiliki pengalaman teknis dalam mengembangkan aplikasi web berbasis Laravel dan Next.js, merancang arsitektur database, serta menerapkan pengawasan berbasis AI. Terbiasa mengelola sistem jaringan komputer serta berpengalaman dalam digitalisasi layanan publik.',
   status: 'Terbuka untuk Freelance & Full-Time',
-  email: 'fahmirifkihaikal@gmail.com',
+  email: 'fahmirifki412@gmail.com',
   skills: [
     'Laravel / PHP',
     'Next.js / React',
@@ -127,7 +127,7 @@ const EXPERIENCES = [
   }
 ]
 
-export default function Home () {
+export default function Home() {
   // Fungsi Smooth Scroll ke Section
   const scrollToSection = (
     e: React.MouseEvent<HTMLAnchorElement>,
@@ -429,12 +429,12 @@ export default function Home () {
           </p>
 
           <div className='flex justify-center gap-4 mb-20'>
-            <button
-              onClick={handleHireMe}
+            <a
+              href="mailto:fahmirifki412@gmail.com?subject=Peluang%20Kerja%20/%20Proyek%20Web%20Development"
               className='inline-flex items-center gap-2 bg-amber-500 hover:bg-amber-400 text-stone-950 font-semibold px-8 py-4 rounded text-sm transition-all cursor-pointer'
             >
               <Mail className='w-4 h-4' /> Kirim Email Ke Saya
-            </button>
+            </a>
           </div>
 
           <div className='pt-12 border-t border-stone-800/60 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs font-mono text-stone-500'>
